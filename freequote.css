@@ -1,0 +1,97 @@
+<style type="text/css">			.header {
+    background-color: #ffffff;
+}
+            .header {
+    border-bottom-color: #ffffff;
+}
+            .navigation > li > a,
+.site-logo a,
+.site-logo a:hover,
+.site-tagline {
+    color: #000000;
+}
+            .navigation > li > a:hover,
+.navigation > li.sfHover > a,
+.site-logo a:hover {
+    color: #ffffff;
+}
+            .navigation > li.current-menu-item > a,
+.navigation > li.current-menu-ancestor > a,
+.navigation > li.current-menu-parent > a,
+.navigation > li > a:hover,
+.navigation > li.sfHover > a,
+.navigation > li.sfHover > a:active {
+    background-color: #ec1b20;
+}
+.navigation > li.current > a {
+    background-color: #ec1b20;
+}
+            .footer a {
+    color: #ec1b20;
+}
+.c-form-row label {
+width: 100%;
+}
+.c-form-row label {
+display: inline-block;
+float: left;
+width: calc((100% - 40px)/4);
+margin-right: 10px;
+}
+@media screen and (max-width: 768px) {
+.c-form-row label {
+width: 100%;
+}
+.c-form-row input {
+width: 100%;
+margin-top: 0.5rem;
+}
+}
+.outer {
+background: red;
+width: 7.5rem;
+height: 7.5rem;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+cursor: pointer;
+color: white;
+font-family: Arial, san-serif;
+position: fixed;
+right: 0;
+z-index: 99;
+top: 17rem;
+}
+.inner {
+border: 2px solid white;
+border-radius: 50%;
+width: 7rem;
+height: 7rem;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.price {
+display: block;
+font-size: 1.8rem;
+user-select: none;
+font-weight: 700;
+}
+.left-image{
+position: fixed;
+left: 0;
+top: 17rem;
+z-index: 65;
+}
+.text {
+font-weight: 700;
+display: inline-block;
+user-select: none;
+text-align: center;
+font-size: 0.8rem;
+}
+.navigation > li > a {
+font-weight: bold;
+font-size: 100%;
+}</style>
