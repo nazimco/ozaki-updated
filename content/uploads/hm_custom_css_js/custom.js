@@ -1,1 +1,0 @@
-window.onload=function(){const form=document.querySelector('.mover-form');if(form){const frame=form.getElementsByTagName('iframe')[0];if(frame){frame.scrolling="no"}}}
